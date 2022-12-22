@@ -3,7 +3,7 @@ Solver of resistance composition in parallel
 
 Typical output:
 ```
-Using  E24  series of resistance values in parallel to make 195.43Ω  within  5 % precision,
+Using two of E24  series of resistance values in parallel to make 195.43Ω  within  5 % precision,
 	combine 300Ω  with 560Ω  giving  195.35Ω,  with 0.0%  precision
 	combine 390Ω  with 390Ω  giving  195.00Ω,  with 0.2%  precision
 	combine 360Ω  with 430Ω  giving  195.95Ω,  with 0.3%  precision
