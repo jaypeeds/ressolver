@@ -20,4 +20,4 @@ Using  E24  series of resistance values in parallel to make 195.43Ω  within  5 
 	combine 360Ω  with 470Ω  giving  203.86Ω,  within 4.3%  precision
 	combine 330Ω  with 430Ω  giving  186.71Ω,  within 4.5%  precision
 	combine 390Ω  with 430Ω  giving  204.51Ω,  within 4.6%  precision
-	combine 240Ω  with 820Ω  giving  185.66Ω,  within 5.0%  precision```
+	combine 240Ω  with 820Ω  giving  185.66Ω,  within 5.0%  precision
