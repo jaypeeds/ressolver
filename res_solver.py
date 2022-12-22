@@ -37,6 +37,6 @@ for Ra in series:
 print("Using ", "E12" if series == e12 else "E24" if (series == e24) else "E48", " series of resistance values in parallel to make {:.2f}Ω".format(target), " within ", precision_percent, "% precision,")
 for candidate in sorted(records_list,key=lambda c: c.precision, reverse=False):
     calculated = r_in_parallel(candidate.r_a, candidate.r_b)
-    print("\tcombine {:.0f}Ω".format(candidate.r_a), " with {:.0f}Ω".format(candidate.r_b), " giving ", '{:.2f}Ω, '.format(calculated), "within {:.1f}%".format(100.0 * candidate.precision), " precision")
+    print("\tcombine {:.0f}Ω".format(candidate.r_a), " with {:.0f}Ω".format(candidate.r_b), " giving ", '{:.2f}Ω, '.format(calculated), "with {:.1f}%".format(100.0 * candidate.precision), " precision")
             
 
